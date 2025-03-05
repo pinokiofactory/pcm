@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "1.5",
+  version: "3.0",
   title: "PCM",
   description: "Phased Consistency Model - generate high quality images with 2 steps https://huggingface.co/spaces/radames/Phased-Consistency-Model-PCM",
   icon: "icon.png",
@@ -55,6 +55,7 @@ module.exports = {
           icon: "fa-regular fa-circle-xmark",
           text: "Reset",
           href: "reset.js",
+          confirm: "Are you sure you wish to reset the app?"
         }]
       }
     } else {
